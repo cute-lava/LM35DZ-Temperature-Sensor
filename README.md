@@ -12,7 +12,13 @@ Reads an LM35DZ analog temperature sensor on pin A0 and prints the temperature i
 - [Jumper wires](https://cutelava.com/products/solderless-breadboard-jumper-cable-wires-65-pieces)
 - Optional: 0.1 µF ceramic capacitor, for noise filtering on longer wire runs
 
-Wiring, schematic, and the full write-up are in the blog post linked above.
+## Wiring
+
+![Breadboard wiring diagram of an LM35DZ temperature sensor connected to an Arduino Uno with a 0.1 microfarad capacitor](https://cdn.shopify.com/s/files/1/0019/3485/2207/files/P-0007_-_BB_00.png?v=1782029971)
+
+![Schematic diagram of the LM35DZ temperature sensor wired to an Arduino Uno, including the optional 0.1 microfarad capacitor](https://cdn.shopify.com/s/files/1/0019/3485/2207/files/P-0007_-_Schematic_00.png?v=1782029970)
+
++Vs to the Arduino's 5V pin, GND to any Arduino GND pin, Vout to analog pin A0. The 0.1 µF capacitor bridges Vout and GND. Full step-by-step instructions are in the blog post linked above.
 
 ## Usage
 
